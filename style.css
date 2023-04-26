@@ -76,6 +76,12 @@ main {
   font-family: var(--body-font);
 }
 
+footer {
+  height: 20vh;
+  margin-top: 100px;
+  background-color: aqua;
+}
+
 .a-img-container > img {
   background-color: var(--grey-bg);
   padding: 5%;
@@ -113,7 +119,11 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 50px;
+  height: 30px;
+}
+
+.a-btn-container > img {
+  color: #2D4059;
 }
 
 .a-quantity-container {
@@ -138,8 +148,17 @@ main {
   color: #EA5455;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
-  padding: 0 15%;
+  padding: 0 20%;
   height: 100%;
+  line-height: 180%;
+}
+
+.a-btn {
+  background-color: #EA5455;
+  color: var(--grey-bg);
+  border-radius: 7px;
+  font-size: 15px;
+  padding: 3%;
 }
 
 /*# sourceMappingURL=style.css.map */
