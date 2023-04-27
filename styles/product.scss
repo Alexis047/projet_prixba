@@ -6,23 +6,11 @@
   --grey-bg : #FCFCFC;
 }
 
-header {
-  height: 20vh;
-  background-color: aqua;
-  width: 100%;
-}
-
 main {
   width: 80%;
   margin: auto;
   padding-top: 15%;
   font-family: var(--body-font);
-}
-
-footer {
-  height: 20vh;
-  margin-top: 100px;
-  background-color: aqua;
 }
 
 .a-img-container > img {
@@ -97,11 +85,8 @@ footer {
 }
 
 .a-btn {
-  // display: block;
   background-color: #EA5455;
   color: var(--grey-bg);
-  // height: 100%;
-  // line-height: 150%;
   border-radius: 7px;
   font-size: 15px;
   padding: 3%;
