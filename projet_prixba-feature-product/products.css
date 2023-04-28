@@ -1,0 +1,118 @@
+/* éléments généraux */
+body {
+    margin: 0;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background-color: #1565b1;
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+}
+
+.header-links a {
+    margin: 0px 20px;
+    font-size: 20px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.search-form input[type="text"] {
+    width: 300px;
+    padding: 5px;
+    border: none;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+
+.search-form button[type="submit"] {
+    background-color: red;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* main */
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.article {
+    width: 20%;
+    padding: 20px;
+    margin-right: 20px;
+    font-size: 60px;
+    text-align: center; 
+    display: block;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 16px;
+    color: green;
+}
+
+/* footer */
+footer {
+    position : fixed;
+    bottom: 0;
+    height: 100px;
+    background-color: #1565b1;
+    width: 100%;
+}
+
+.blue-bottom {
+    color: white; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.footer-content p {
+    margin: 0;
+    font-weight: red;
+}
+
+.categories {
+    width: 20%;
+    padding: 20px;
+    margin-right: 20px;
+    font-size: 60px;
+    text-align: center; 
+}
+
+.categories a {
+    display: block;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
